@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Gene Query
+        </title>
+    </head>
+    <body>
+        <form action="/cgi-bin/handle_query.py">
+        	<label>option:</label>
+        	<select name="option">
+  				<option value="gene">GENE</option>
+  				<option value="keyword">Keyword</option>
+		</select>
+		<input type="text" name="query" value = "">
+        <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
